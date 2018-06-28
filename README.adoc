@@ -7,13 +7,13 @@
 image::https://travis-ci.com/dmeiners88/mapping-api.svg?branch=develop["Build Status", link="https://travis-ci.com/dmeiners88/mapping-api"]
 
 [.left]
-image::https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-api&metric=alert_status[link="https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-api&metric=alert_status"]
+image::https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-api&metric=alert_status[link="https://sonarcloud.io/dashboard?id=de.dmeiners.mapping%3Amapping-api"]
 
 [.left]
 image::https://api.bintray.com/packages/dmeiners/mapping/mapping-api/images/download.svg[link="https://bintray.com/dmeiners/mapping/mapping-api/_latestVersion"]
 --
 
-This is the API module of a simple library that enabled you to include scripting languages in a Java application.
+This is the API module of a simple library that enables you to include scripting languages in a Java application.
 
 toc::[]
 
