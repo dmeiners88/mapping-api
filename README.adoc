@@ -7,6 +7,9 @@
 image::https://travis-ci.com/dmeiners88/mapping-api.svg?branch=master["Build Status", link="https://travis-ci.com/dmeiners88/mapping-api"]
 
 [.left]
+image::https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-api&metric=alert_status[link="https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-api&metric=alert_status"]
+
+[.left]
 image::https://api.bintray.com/packages/dmeiners/mapping/mapping-api/images/download.svg[link="https://bintray.com/dmeiners/mapping/mapping-api/_latestVersion"]
 --
 
