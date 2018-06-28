@@ -4,7 +4,7 @@
 [.float-group]
 --
 [.left]
-image::https://travis-ci.com/dmeiners88/mapping-api.svg?branch=master["Build Status", link="https://travis-ci.com/dmeiners88/mapping-api"]
+image::https://travis-ci.com/dmeiners88/mapping-api.svg?branch=develop["Build Status", link="https://travis-ci.com/dmeiners88/mapping-api"]
 
 [.left]
 image::https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-api&metric=alert_status[link="https://sonarcloud.io/api/project_badges/measure?project=de.dmeiners.mapping%3Amapping-api&metric=alert_status"]
