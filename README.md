@@ -77,6 +77,10 @@ String result = script.execute(someObject, Collections.emptyMap()); // <4>
 
 assertThat(result).isEqualTo("Hello World!");
 ```
+1. Create a new post processor
+2. Create a very simple target object
+3. Compile a simple script (scripting language dependent on the implementation available on the classpath, here it is Apache Commons JEXL)
+4. Execute the script, result type is guaranteed to the original type
 
 ### Context Usage
 
@@ -100,6 +104,9 @@ String result = script.execute(someObject, context);
 
 assertThat(result).isEqualTo("Hello John Doe");
 ```
+1. Target object is a Map this time
+2. We create another map to use as script context
+3. Beware that the script text is dependent on the available implementation on the classpath, here it is Apache Commons JEXL
 
 ### Expose Utility Class
 
@@ -126,3 +133,5 @@ String result = script.execute(someObject, context);
 
 assertThat(result).isEqualTo("First name is not blank and reversed nhoJ");
 ```
+1. We can register classes to expose static methods to the scripting language
+2. We can register objects to expose instance methods to the scripting language
