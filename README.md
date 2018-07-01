@@ -16,6 +16,9 @@
   <a href="https://github.com/dmeiners88/mapping-api/blob/develop/LICENSE">
     <img src="https://img.shields.io/github/license/dmeiners88/mapping-api.svg" alt="License">
   </a>
+  <a href="https://semver.org/">
+    <img src="https://img.shields.io/badge/Semantic-Versioning-brightgreen.svg" alt="Semantic Versioning">
+  </a>
 </p>
 
 ## Features
