@@ -21,6 +21,15 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#limitations">Limitations</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
+
 ## Features
 * Zero dependencies
 * Alternative to _Scripting for the Java Platform_ [JSR-223](https://jcp.org/en/jsr/detail?id=223)
