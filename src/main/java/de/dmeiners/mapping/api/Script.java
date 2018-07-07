@@ -19,4 +19,11 @@ public interface Script {
      * @throws ResultTypeException if the script returns another type than the target object has
      */
     <T> List<T> execute(Collection<T> targets, Map<String, Object> context);
+
+    /**
+     * Returns the original script text that was used to create this (compiled) script.
+     *
+     * @return the original script text
+     */
+    String getScriptText();
 }

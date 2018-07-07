@@ -19,4 +19,9 @@ public class NoopScript extends BaseScript {
         logger.warn("Executing a no-operation script. Returning input objects unaltered.");
         return new ArrayList<>(targets);
     }
+
+    @Override
+    public String getScriptText() {
+        return "";
+    }
 }
