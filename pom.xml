@@ -234,11 +234,9 @@
                     <artifactId>revapi-maven-plugin</artifactId>
                     <version>0.10.4</version>
                     <configuration>
-                        <analysisConfiguration>
-                            <revapi.semver.ignore>
-                                <enabled>true</enabled>
-                            </revapi.semver.ignore>
-                        </analysisConfiguration>
+                        <analysisConfigurationFiles>
+                            <file>${project.basedir}/revapi.json</file>
+                        </analysisConfigurationFiles>
                     </configuration>
                     <dependencies>
                         <dependency>

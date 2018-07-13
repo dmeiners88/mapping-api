@@ -1,0 +1,8 @@
+[
+  {
+    "extension": "revapi.semver.ignore",
+    "configuration": {
+      "enabled": true
+    }
+  }
+]
