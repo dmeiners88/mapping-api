@@ -20,7 +20,7 @@ pipeline {
     stage('Install') {
       steps {
         withMaven() {
-          bat 'mvn install'
+          bat 'mvn -DskipTests install'
         }
 
       }
