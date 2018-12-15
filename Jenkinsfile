@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Compile') {
       steps {
         withMaven() {
           bat 'mvn clean compile -DskipTests'
@@ -13,6 +13,14 @@ pipeline {
       steps {
         withMaven() {
           bat 'mvn test'
+        }
+
+      }
+    }
+    stage('Install') {
+      steps {
+        withMaven() {
+          bat 'mvn install'
         }
 
       }
