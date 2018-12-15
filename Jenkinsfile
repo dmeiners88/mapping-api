@@ -16,13 +16,7 @@ pipeline {
             withMaven() {
               bat 'mvn test'
             }
-
           }
-          post {
-                always {
-                    junit 'target/surefire-reports/*.xml' 
-                }
-            }
         }
         stage('Verify') {
           steps {
