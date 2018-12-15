@@ -9,5 +9,13 @@ pipeline {
 
       }
     }
+    stage('Test') {
+      steps {
+        withMaven() {
+          bat 'mvn test'
+        }
+
+      }
+    }
   }
 }
