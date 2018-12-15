@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Test') {
       parallel {
-        stage('Test') {
+        stage('Unit Tests') {
           steps {
             withMaven() {
               bat 'mvn test'
