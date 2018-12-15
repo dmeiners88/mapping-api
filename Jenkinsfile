@@ -10,17 +10,29 @@ pipeline {
       }
     }
     stage('Test') {
-      steps {
-        withMaven() {
-          bat 'mvn test'
-        }
+      parallel {
+        stage('Test') {
+          steps {
+            withMaven() {
+              bat 'mvn test'
+            }
 
+          }
+        }
+        stage('Verify') {
+          steps {
+            withMaven() {
+              bat 'mvn -DskipTests verify'
+            }
+
+          }
+        }
       }
     }
     stage('Install') {
       steps {
         withMaven() {
-          bat 'mvn -DskipTests install'
+          bat 'mvn -DskipTests -Drevapi.skip install'
         }
 
       }
